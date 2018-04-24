@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Header.css';
 import shoppingCart from './img/shopping-cart.svg';
 
@@ -9,7 +8,7 @@ let HeaderComponent = () => (
             Etsetera
         </div>
         <div className='header-item'>
-            Profile
+            <a href='#/userProfile'>Profile</a>
         </div>
 
         <div className='header-item'>

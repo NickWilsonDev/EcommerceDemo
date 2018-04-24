@@ -7,6 +7,8 @@ import CategoryScreen from './CategoryScreen';
 import ProductScreen from './ProductScreen';
 import CartScreen from './CartScreen';
 import LoginScreen from './LoginScreen';
+import ProfileScreen from './ProfileScreen';
+
 import './index.css';
 
 let EtseRouter = () => (
@@ -19,7 +21,8 @@ let EtseRouter = () => (
             <Route exact path='/products' component={ProductScreen} />
             <Route exact path='/cart' component={CartScreen} />
             <Route exact path='/login' component={LoginScreen} />
-        
+            <Route exact path='/logout' component={HomeScreen} />
+            <Route exact path='/userProfile' component={ProfileScreen} />
         </div>
     </Router>
 );

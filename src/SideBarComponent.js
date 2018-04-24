@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './SideBarComponent.css';
+import LoginToggle from './LoginToggleComponent.js';
 
 let SideBarComponent = () => (
     <div className='sidebar-container'>
@@ -23,10 +24,7 @@ let SideBarComponent = () => (
         <div className='sidebar-item'>
             <Link to='/'>Home</Link>
         </div>
-
-        <div className='sidebar-item'>
-            <Link to='/'>Home</Link>
-        </div>
+        <LoginToggle className='sidebar-item'/>
     </div>
 );
 

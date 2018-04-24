@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import EtseRouter from './EtseRouter';
 import HeaderComponent from './HeaderComponent';
-import SideBarComponent from './SideBarComponent';
 
 class App extends Component {
   render() {
