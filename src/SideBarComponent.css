@@ -1,0 +1,22 @@
+/* SideBarComponent.js */
+
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 100%;
+    background-color: #c3d7f7;
+}
+
+.sidebar-item {
+    height: 20%;
+    width: 100%;
+}
+/*
+.sidebar-item a {
+    width: 100%;
+}
+*/
+.sidebar-item:hover {
+    background-color: #dce1ea;
+}
