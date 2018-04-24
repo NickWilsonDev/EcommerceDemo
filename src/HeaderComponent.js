@@ -7,7 +7,7 @@ let HeaderComponent = () => (
         <div className='header-item title'>
             Etsetera
         </div>
-        <div className='header-item'>
+        <div className='header-item title'>
             <a href='#/userProfile'>Profile</a>
         </div>
 

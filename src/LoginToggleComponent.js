@@ -2,8 +2,10 @@ import React from 'react';
 import './SideBarComponent.css';
 
 let LoginToggleComponent = (props) => {
-
-    if(props.isLoggedIn != null) {
+    
+        console.log(props.isLoggedIn);
+    if(props.isLoggedIn) {
+        console.log(props.isLoggedIn);
         return (
             <div className='sidebar-item'>
                 <a href="#/logout">Logout</a>
@@ -12,7 +14,7 @@ let LoginToggleComponent = (props) => {
     } else {
         return (
             <div className='sidebar-item'>
-                <a href="#/login">Logout</a>
+                <a href="#/login">Login</a>
             </div>
         );
     }
