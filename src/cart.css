@@ -1,0 +1,13 @@
+/* cart.css */
+
+.cart-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-component {
+    margin: auto;
+    border: solid;
+}

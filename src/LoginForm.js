@@ -27,9 +27,8 @@ class LoginForm extends Component {
             <div>
                 <MuiThemeProvider>
                     <TextField hintText="Username" onChange= {(event, newValue) => this.setState({username:newValue})} />
-
                     <TextField hintText="Password" onChange= {(event, newValue) => this.setState({password:newValue})} />
-                <RaisedButton label='Submit' primary={true} style={style} onClick={(event) => this.handleClick(event)}/>
+                    <RaisedButton label='Submit' primary={true} style={style} onClick={(event) => this.handleClick(event)}/>
                 </MuiThemeProvider>
             </div>
         );

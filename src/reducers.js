@@ -1,10 +1,10 @@
 /* reducers.js */
 
 let categories = [
-    { "id": 1, "name": "Technology" },
-    { "id": 2, "name": "Food and Beverage" },
-    { "id": 3, "name": "Educational" },
-    { "id": 4, "name": "Board Games"}
+    { "id": 1, "name": "Technology", img: './img/technology.jpeg' },
+    { "id": 2, "name": "Food and Beverage", img: './img/food-and-beverage.jpeg' },
+    { "id": 3, "name": "Educational", img: './img/educational.jpg' },
+    { "id": 4, "name": "Board Games", img: './img/board-games.jpg'}
 ];
 
 let products = [

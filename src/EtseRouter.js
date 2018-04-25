@@ -18,6 +18,7 @@ let EtseRouter = () => (
 
             <Route exact path='/' component={HomeScreen} />
             <Route exact path='/categories' component={CategoryScreen} />
+            <Route exact path='/categories/:id' component={CategoryScreen} />
             <Route exact path='/products' component={ProductScreen} />
             <Route exact path='/products/:id' component={ProductScreen} />
             <Route exact path='/cart' component={CartScreen} />

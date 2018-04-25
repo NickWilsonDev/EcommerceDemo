@@ -1,0 +1,13 @@
+/* product.css */
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-component {
+    margin: auto;
+    border: solid;
+}
