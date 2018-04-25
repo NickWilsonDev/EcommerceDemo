@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
+import { Provider } from 'react-redux';
 import './App.css';
 import EtseRouter from './EtseRouter';
 import HeaderComponent from './HeaderComponent';
+import store from './Store.js';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header>
-            <HeaderComponent />
-        </header>
-        <EtseRouter />
-      </div>
+        <Provider store={store}>
+            <div className="App">
+                <header>
+                    <HeaderComponent />
+                </header>
+                <EtseRouter />
+            </div>
+        </Provider>
     );
   }
 }

@@ -1,0 +1,13 @@
+/* category.css */
+
+.category-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-component {
+    margin: auto;
+    border: solid;
+}
